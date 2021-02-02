@@ -1,0 +1,4 @@
+os: Windows, Linux, iOS, Solaris
+dbms: MySQL, PostgreSQL, SQLite
+browser: IE, Edge, Firefox, Chrome, Opera, Safari
+language: EN, DE, PL, RU
