@@ -1,0 +1,7 @@
+os: Windows, Linux, iOS, Solaris
+dbms: MySQL, PostgreSQL, SQLite
+browser: IE, Edge, Firefox, Chrome, Opera, Safari
+
+IF [os] IN {"Linux", "Solaris", "iOS"} THEN [browser] NOT IN {"IE", "Edge"};
+IF [os] <> "iOS" THEN [browser] <> "Safari";
+IF [os] = "Solaris" THEN [dbms] <> "SQLite";
